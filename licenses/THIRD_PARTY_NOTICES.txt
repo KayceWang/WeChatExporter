@@ -1,0 +1,10 @@
+This trial application bundles the following third-party components. The corresponding license texts are in this folder:
+
+- SQLCipher-enabled SQLite Python binding: sqlcipher3-wheels 0.5.7.
+- Zstandard Python bindings: zstandard 0.25.0.
+- ReportLab PDF library: reportlab 5.0.1.
+- Pillow image rendering library: Pillow 13.0.0.
+- PyInstaller packaging runtime: pyinstaller 6.22.3 (includes its bootloader exception).
+
+The included SQLCipher binding license file covers the Python wrapper. Check the licenses of the native SQLCipher and cryptographic components before redistributing this application beyond personal testing.
+

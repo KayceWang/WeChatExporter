@@ -1,0 +1,32 @@
+# Python environment and cache
+.venv/
+__pycache__/
+*.py[cod]
+*.pyd
+
+# Generated PyInstaller files; keep installer scripts in build/
+/build/WeChatChatExporter/
+/build/release-*/
+/dist/
+
+# Local WeChat databases, keys, and exported conversations
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+*.sqlcipher
+*.sqlcipher-*
+*.key
+*.pem
+*聊天记录*.txt
+*聊天记录*.pdf
+/exports/
+/导出聊天记录/
+
+# Local environment and logs
+.env
+.env.*
+!.env.example
+*.log
